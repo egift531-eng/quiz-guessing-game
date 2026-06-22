@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bible Quiz</title>
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to the Bible Quiz!</h1>
+        <p>Test your knowledge of the Bible with this fun quiz.</p> 
+        <button onclick="startQuiz()">Start Quiz</button>
+
+        <div id="quizContainer" style="display:none;">
+            <p id="question"></p>
+            <input type="text" id="answerInput" placeholder="Enter your answer">
+            <button onclick="submitAnswer()">Submit</button>
+            <p id="feedback"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
